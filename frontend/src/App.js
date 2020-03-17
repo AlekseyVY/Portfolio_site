@@ -1,14 +1,20 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
+import HomePage from './containers/eng/home_eng';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-          <h1>Main Page (refractor)</h1>
-      </header>
-    </div>
-  );
+class App extends Component  {
+    constructor(props){
+        super(props);
+    }
+
+    render() {
+        return (
+            <div>
+            <HomePage />
+            </div>
+        )
+    }
+
 }
 
 export default App;
