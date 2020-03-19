@@ -6,11 +6,6 @@ class HomePage extends Component
     constructor(props)
     {
         super(props);
-        //state for changing language of a page.
-        this.state = {
-            rus: true,
-            eng: false
-    }
 }
 render() {
         return (
