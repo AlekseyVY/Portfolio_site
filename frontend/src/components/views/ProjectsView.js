@@ -3,8 +3,10 @@ import React from 'react'
 
 const ProjectView = () => {
 
-    return(
-        <div>ProjectView</div>
+    return (
+        <div>
+            1
+        </div>
     )
 }
 

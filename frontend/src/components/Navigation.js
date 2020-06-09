@@ -8,13 +8,19 @@ import ProjectView from "./views/ProjectsView";
 import EducationView from "./views/EducationView";
 import BlogView from "./views/BlogView";
 import ContactsView from "./views/ContactsView";
+import myImage from '../resources/P_20200318_155210_1.png';
+/*
+Main navigation component left-side
+with routing
+ */
 
 
 const Navigation = () => {
 
+
     return (
         <Router>
-            <Grid container spacing={1}>
+            <Grid container spacing={1} className={'navContainer'}>
                 <Grid item xs={2} className={'navBar'}>
                     <ButtonGroup orientation={'vertical'} className={'navButtonGroup'}>
                         <Button component={Link} to={'/'} className={'navButton'}>Home</Button>
