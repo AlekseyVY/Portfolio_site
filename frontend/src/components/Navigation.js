@@ -1,14 +1,11 @@
 import React from 'react'
 import Grid from "@material-ui/core/Grid";
 import HomeView from "./views/HomeView";
-import ButtonGroup from "@material-ui/core/ButtonGroup";
-import Button from "@material-ui/core/Button";
 import {BrowserRouter as Router, Link, Switch, Route} from 'react-router-dom'
 import ProjectView from "./views/ProjectsView";
 import EducationView from "./views/EducationView";
 import BlogView from "./views/BlogView";
 import ContactsView from "./views/ContactsView";
-import myImage from '../resources/P_20200318_155210_1.png';
 /*
 Main navigation component left-side
 with routing
@@ -22,13 +19,27 @@ const Navigation = () => {
         <Router>
             <Grid container spacing={1} className={'navContainer'}>
                 <Grid item xs={2} className={'navBar'}>
-                    <ButtonGroup orientation={'vertical'} className={'navButtonGroup'}>
-                        <Button component={Link} to={'/'} className={'navButton'}>Home</Button>
-                        <Button component={Link} to={'/projects'}>Projects</Button>
-                        <Button component={Link} to={'/education'}>Education</Button>
-                        <Button component={Link} to={'/blog'}>Blog</Button>
-                        <Button component={Link} to={'contacts'}>Contacts</Button>
-                    </ButtonGroup>
+                    <Link  to={'/'} className={'navBtn'}>Home
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </Link>
+                    <Link to={'/projects'} className={'navBtn'}>Projects
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span></Link>
+                    <Link to={'/education'} className={'navBtn'}>Education
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span></Link>
+                    <Link to={'contacts'} className={'navBtn'}>Contacts
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span></Link>
                 </Grid>
                 <Grid item xs>
                     <Switch>
