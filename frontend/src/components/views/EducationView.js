@@ -9,7 +9,7 @@ import TableCell from "@material-ui/core/TableCell";
 const EducationView = () => {
 
     return (
-        <div>
+        <div className={'educationViewDiv'}>
             <TableContainer>
                 <Table>
                     <TableBody>

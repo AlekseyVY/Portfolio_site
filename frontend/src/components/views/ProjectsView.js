@@ -4,7 +4,7 @@ import React from 'react'
 const ProjectView = () => {
 
     return (
-        <div>
+        <div className={'projectViewDiv'}>
             1
         </div>
     )

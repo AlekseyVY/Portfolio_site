@@ -17,7 +17,7 @@ const Navigation = () => {
 
     return (
         <Router>
-            <Grid container spacing={1} className={'navContainer'}>
+            <Grid container spacing={3} className={'navContainer'}>
                 <Grid item xs={2} className={'navBar'}>
                     <Link  to={'/'} className={'navBtn'}>Home
                         <span></span>
