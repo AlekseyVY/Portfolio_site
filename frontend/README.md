@@ -1,5 +1,4 @@
 #Screens supported:
-*
 *     1366px,
 *     1920px,
     *    ...add most popular
