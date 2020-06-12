@@ -9,9 +9,9 @@ const HomeView = () => {
 
 
     return(
-        <>
+        <div className={'home_Container'}>
             <AnimatedText />
-        </>
+        </div>
     )
 }
 

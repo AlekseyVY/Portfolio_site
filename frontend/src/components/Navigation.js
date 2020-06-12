@@ -1,7 +1,6 @@
-import React from 'react'
-import Grid from "@material-ui/core/Grid";
+import React, {useState} from 'react'
 import HomeView from "./views/HomeView";
-import {BrowserRouter as Router, Link, Switch, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Link, Switch, Route, NavLink} from 'react-router-dom'
 import ProjectView from "./views/ProjectsView";
 import EducationView from "./views/EducationView";
 import BlogView from "./views/BlogView";
@@ -13,44 +12,28 @@ with routing
 
 
 const Navigation = () => {
+    const [pressed, setPressed] = useState(false)
 
 
     return (
         <Router>
-            <Grid container spacing={3} className={'navContainer'}>
-                <Grid item xs={2} className={'navBar'}>
-                    <Link  to={'/'} className={'navBtn'}>Home
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </Link>
-                    <Link to={'/projects'} className={'navBtn'}>Projects
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span></Link>
-                    <Link to={'/education'} className={'navBtn'}>Education
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span></Link>
-                    <Link to={'contacts'} className={'navBtn'}>Contacts
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span></Link>
-                </Grid>
-                <Grid item xs>
+            <div  className={'navContainer'}>
+                <div  className={'navBar'}>
+                    <NavLink to={'/home'} className={'navBtn'} activeClassName={'selected'}>Home</NavLink>
+                    <NavLink to={'/projects'} className={'navBtn'} activeClassName={'selected'}>Projects</NavLink>
+                    <NavLink to={'/education'} className={'navBtn'} activeClassName={'selected'}>Education</NavLink>
+                    <NavLink to={'contacts'} className={'navBtn'} activeClassName={'selected'}>Contacts</NavLink>
+                </div>
+                <div className={'divMainContent'}>
                     <Switch>
                         <Route path={'/projects'}><ProjectView /></Route>
                         <Route path={'/education'}><EducationView /></Route>
                         <Route path={'/blog'}><BlogView /></Route>
                         <Route path={'/contacts'}><ContactsView /></Route>
-                        <Route path={'/'}><HomeView /></Route>
+                        <Route path={'/home'}><HomeView /></Route>
                     </Switch>
-                </Grid>
-            </Grid>
+                </div>
+            </div>
         </Router>
     )
 }
