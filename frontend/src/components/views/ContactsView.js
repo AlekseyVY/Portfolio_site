@@ -9,7 +9,7 @@ const ContactsView = () => {
                 <h1>GET IN TOUCH</h1>
                 <div>
                     <ul className={'get_in_touch_ul'}>
-                        <li>
+                        <li><a href={'https://twitter.com/AlekseyVYX'} target={'_blank'}>
                             <img className={'social'} src={'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5v' +
                             'cmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl' +
                             '0ZXJsaW1pdDoyOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjEwMCUiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6c2VyaWY9' +
@@ -23,8 +23,10 @@ const ContactsView = () => {
                             'Ny4yOCwyLjMwNGMtNC4yMjQsMCAtOC4zMiwtMC4zODQgLTEyLjI4OCwtMS4xNTJjOC4zMiwyNi4xMTIgMzIuNjQsNDUuMDU2IDYxLjMxMiw0NS41NjhjLTIyLjUyOCwxNy42NjQgLTUwLjgxNiwyOC4xNiAtODEuNTM2LDI4LjE2Yy' +
                             '01LjI0OCwwIC0xMC40OTYsLTAuMjU2IC0xNS42MTYsLTAuODk2YzI4LjkyOCwxOC40MzIgNjMuNDg4LDI5LjMxMiAxMDAuNDgsMjkuMzEyIiBpZD0iTG9nb19feDIwMTRfX0ZJWEVEIiBzdHlsZT0iZmlsbDojZmZmO2ZpbGwtcnVs' +
                             'ZTpub256ZXJvOyIvPjwvZz48L3N2Zz4='} />
+                        </a>
                         </li>
                         <li>
+                            <a href={'https://vk.com/alekseyvy'} target={'_blank'}>
                             <img className={'social'} src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53
                             My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDUwIDUwIiBpZD0iTGF5ZXJfMSIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNTAgNTAiIHhtb
                             DpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik00NSwxSDVDMi44LDEsMSwyLjgsMSw1djQ
@@ -33,8 +35,10 @@ const ContactsView = () => {
                             EuMSwzLTIsM2MtMC45LDAtMS0xLjktMS0zYzAtMy4zLDAuNS01LjYtMS02ICBjMCwwLTIsMC0zLDBjLTEuNiwwLTMsMS0zLDFzLTEuMiwxLTEsMWMwLjMsMCwyLTAuNCwyLDFjMCwxLDAsMiwwLDJzMCw0LTEsNGMtMSwwLTMtNC01LT
                             djLTAuOC0xLjItMS0xLTItMWMtMS4xLDAtMiwwLTMsMCAgYy0xLDAtMS4xLDAuNi0xLDFjMiw1LDMuNCw4LjEsNy4yLDEyLjFjMy41LDMuNiw1LjgsMy44LDcuOCwzLjlDMjUuNSwzNCwyNSwzNCwyNiwzNHoiIGZpbGw9IiNGRkZGR
                             kYiIGlkPSJWS18xXyIvPjwvc3ZnPg=="/>
+                            </a>
                         </li>
                         <li>
+                            <a href={'https://www.linkedin.com/in/aleksey-vasiliev-b79a53150/'} target={'_blank'}>
                             <img className={'social'} src={'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vc' +
                             'mcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZX' +
                             'JsaW1pdDoyOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjEwMCUiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6c2VyaWY9Im' +
@@ -46,8 +50,10 @@ const ContactsView = () => {
                             'YwMWMtNDUuNDksMCAtNjUuODY2LDI1LjAxNyAtNzcuMjc2LDQyLjU4OWwwLC0zNi41MjNsLTg1LjczOCwwYzEuMTM3LDI0LjE5NyAwLDI1Ny45NjEgMCwyNTcuOTYxbDg1LjczNywwbDAsLTE0NC4wNjRjMCwtNy43MTEgMC41NTQs' +
                             'LTE1LjQyIDIuODI3LC0yMC45MzFjNi4xODgsLTE1LjQgMjAuMzA1LC0zMS4zNTIgNDMuOTkzLC0zMS4zNTJjMzEuMDEyLDAgNDMuNDM2LDIzLjY2NCA0My40MzYsNTguMzI3bDAsMTM4LjAybDg1Ljc0MSwwbDAsLTE0Ny45M2MwLC' +
                             '03OS4yMzcgLTQyLjMwNSwtMTE2LjA5NyAtOTguNzIsLTExNi4wOTdaIiBpZD0icGF0aDE1IiBzdHlsZT0iZmlsbDojZmZmO2ZpbGwtcnVsZTpub256ZXJvOyIvPjwvZz48L2c+PC9zdmc+'}/>
+                            </a>
                         </li>
                         <li>
+                            <a href={'https://www.reddit.com/user/AlekseyVY'} target={'_blank'}>
                             <img className={'social'} src={'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vc' +
                             'mcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJs' +
                             'aW1pdDoyOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjEwMCUiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6c2VyaWY9Imh0dHA' +
@@ -65,8 +71,10 @@ const ContactsView = () => {
                             '41NCwtMTEuMWMtMjEuOTkyLDAgLTM5LjgyNCwxNy44MjggLTM5LjgyNCwzOS44MmMwLDE2LjE4IDkuNjY4LDMwLjA4IDIzLjUyOCwzNi4zMTJjLTAuNjEyLDMuOTYgLTAuOTQ4LDcuOTc2IC0wLjk0OCwxMi4wNDRjMCw2MS4yNjggN' +
                             'zEuMzE2LDExMC45MzIgMTU5LjI4OCwxMTAuOTMyYzg3Ljk3MiwwIDE1OS4yOTIsLTQ5LjY2NCAxNTkuMjkyLC0xMTAuOTMyYzAsLTQuMDQgLTAuMzMyLC04LjAzMiAtMC45MzYsLTExLjk2NGMxMy45NDgsLTYuMTk2IDIzLjY4OCwt' +
                             'MjAuMTQ0IDIzLjY4OCwtMzYuMzkyWiIgc3R5bGU9ImZpbGw6I2ZmZjtmaWxsLXJ1bGU6bm9uemVybzsiLz48L2c+PC9zdmc+'}/>
+                            </a>
                         </li>
                         <li className={'social'}>
+                            <a href={'https://www.instagram.com/alekseyaraara/'} target={'_blank'}>
                             <img src={'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmc' +
                             'vR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdH' +
                             'Jva2UtbWl0ZXJsaW1pdDoyOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjEwMCUiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2' +
@@ -102,8 +110,10 @@ const ContactsView = () => {
                             'uMywtMTQ5LjYxOCwzMDAuODEsLTI3LjEyODMpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgaWQ9Il9MaW5lYXIzIiB4MT0iMCIgeDI9IjEiIHkxPSIwIiB5Mj0iMCI+PHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3R' +
                             'vcC1jb2xvcjojNTE1YmQ0O3N0b3Atb3BhY2l0eToxIi8+PHN0b3Agb2Zmc2V0PSIwLjI2IiBzdHlsZT0ic3RvcC1jb2xvcjojOTUxMGI4O3N0b3Atb3BhY2l0eToxIi8+PHN0b3Agb2Zmc2V0PSIwLjY2IiBzdHlsZT0ic3RvcC1j' +
                             'b2xvcjojZTUxODA0O3N0b3Atb3BhY2l0eToxIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojZmZiZjAwO3N0b3Atb3BhY2l0eToxIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PC9zdmc+'}/>
+                            </a>
                         </li>
                         <li>
+                            <a href={'https://wa.me/89377222062'} target={'_blank'}>
                             <img className={'social'} src={'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcm' +
                             'cvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsa' +
                             'W1pdDoyOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjEwMCUiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6c2VyaWY9Imh0dHA6' +
@@ -132,8 +142,10 @@ const ContactsView = () => {
                             'gLTE4Ljk0NiwtOTQuNTkgLTUzLjQwNSwtMTI5LjA3NiIgc3R5bGU9ImZpbGw6I2ZmZjsiLz48L2c+PGRlZnM+PGxpbmVhckdyYWRpZW50IGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMCwtNTEyLC01MTIsMCwyNTYuMDAxLDUxM' +
                             'ikiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiBpZD0iX0xpbmVhcjEiIHgxPSIwIiB4Mj0iMSIgeTE9IjAiIHkyPSIwIj48c3RvcCBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiMyNWNmNDM7c3RvcC1vcGFjaX' +
                             'R5OjEiLz48c3RvcCBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiM2MWZkN2Q7c3RvcC1vcGFjaXR5OjEiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48L3N2Zz4='}/>
+                            </a>
                         </li>
                         <li>
+                            <a href={'https://www.facebook.com/aleksey.vasiliev.5437/'} target={'_blank'}>
                             <img className={'social'} src={'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcm' +
                             'cvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsa' +
                             'W1pdDoyOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjEwMCUiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6c2VyaWY9Imh0dHA6' +
@@ -142,6 +154,7 @@ const ContactsView = () => {
                             'uNjM2bDM2LjA0MiwwbDAsLTcwLjM0YzAsMCAtMzIuNzEsLTUuNTgyIC02My45ODIsLTUuNTgyYy02NS4yODgsMCAtMTA3Ljk2LDM5LjU2OSAtMTA3Ljk2LDExMS4yMDRsMCw2Mi45NzFsLTcyLjU3MywwbDAsODIuNjIxbDcyLjU3Myw' +
                             'wbDAsMTkyLjkxNWwtMTkxLjEwNCwwYy0zNC41MjQsMCAtNjIuNTU0LC0yOC4wMyAtNjIuNTU0LC02Mi41NTRsMCwtMzg2Ljg5MmMwLC0zNC41MjQgMjguMDI5LC02Mi41NTQgNjIuNTU0LC02Mi41NTRsMzg2Ljg5MiwwWiIgc3R5bGU' +
                             '9ImZpbGw6IzE3NzdmMjsiLz48L3N2Zz4='}/>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -153,30 +166,31 @@ const ContactsView = () => {
                         <div>
                             <ul className={'contact_me_ul'}>
                                 <li>
-                                    <label>Name<span>(required)</span></label>
+                                    <label className={'contacts_label'}>Name<span className={'contacts_label_span'}>(required)</span></label>
                                     <div>
-                                        <input className={'inputForm'} />
+                                        <input className={'inputForm'} type={'text'} required={true}/>
                                     </div>
                                 </li>
                                 <li>
-                                    <label>email<span>(required)</span></label>
+                                    <label className={'contacts_label'} >email<span className={'contacts_label_span'}>(required)</span></label>
                                     <div>
-                                        <input className={'inputForm'}/>
+                                        <input className={'inputForm'} type={'email'} required={true}/>
                                     </div>
                                 </li>
                                 <li>
-                                    <label>phone</label>
+                                    <label className={'contacts_label'} >phone</label>
                                     <div>
-                                        <input className={'inputForm'}/>
+                                        <input className={'inputForm'} type={'phone'}/>
                                     </div>
                                 </li>
                                 <li>
-                                    <label>Message<span>(required)</span></label>
+                                    <label className={'contacts_label'}>Message<span className={'contacts_label_span'}>(required)</span></label>
                                     <div>
-                                        <textarea className={'textareaForm'} rows={'10'} cols={'50'} />
+                                        <textarea className={'textareaForm'} type={'text'} rows={'10'} cols={'50'} required={true}/>
                                     </div>
                                 </li>
                             </ul>
+                            <button type={'submit'} className={'submit_contact'}>send</button>
                         </div>
                     </form>
                 </div>

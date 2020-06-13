@@ -12,7 +12,7 @@
 .typewrite {
     font-size: 50px;
     color: #0a093b;
-    font-family: 'Dancing Script', cursive;
+    font-family: consolas, serif;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
 .wrap {
