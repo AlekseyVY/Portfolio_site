@@ -5,7 +5,9 @@ const ProjectView = () => {
 
     return (
         <div className={'projectViewDiv'}>
-            1
+                <iframe className={'projectCard'} src="https://alekseyvy.github.io/Random_Qoute_Machine/">
+                    <div>adsf</div>
+                </iframe>
         </div>
     )
 }
