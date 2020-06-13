@@ -4,7 +4,9 @@ import React from 'react'
 const ContactsView = () => {
 
     return (
-        <div className={'contactsViewDiv'}>ContactsView</div>
+        <div className={'contactsViewDiv'}>
+            contact me
+        </div>
     )
 }
 
