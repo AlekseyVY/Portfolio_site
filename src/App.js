@@ -10,9 +10,20 @@ import Navigation from "./components/Navigation";
 
 export default function App() {
 
+
+    if (/Mobi/.test(navigator.userAgent)) {
+        return (
+            <div>
+                <h1>
+                    404 (MOBILE VIEW IS IN DEVELOPMENT)
+                </h1>
+            </div>
+        )
+    } else {
     return (
         <div className={'container'}>
             <Navigation />
         </div>
     );
+    }
 }

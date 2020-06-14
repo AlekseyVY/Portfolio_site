@@ -21,17 +21,6 @@ const Navigation = () => {
         setState(true)
     },[state])
 
-    let is_mobile = window.matchMedia("only screen and (max-width: 760px)").matches
-
-    if (is_mobile) {
-        return (
-            <div>
-                <h1>
-                    404 (MOBILE VIEW IS IN DEVELOPMENT)
-                </h1>
-            </div>
-        )
-    } else {
         return (
             <Router>
                 <div className={'navContainer'}>
@@ -73,7 +62,6 @@ const Navigation = () => {
                 </div>
             </Router>
         )
-    }
 }
 
 export default Navigation
