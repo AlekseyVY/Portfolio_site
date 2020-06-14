@@ -8,6 +8,8 @@ import ProjectView from "./views/ProjectsView";
 import EducationView from "./views/EducationView";
 import ContactsView from "./views/ContactsView";
 import {CSSTransition} from "react-transition-group";
+import {useDispatch, useSelector} from "react-redux";
+import {eng, rus} from "../reducers/langSelectReducer";
 /*
 Main navigation component left-side
 with routing
@@ -16,23 +18,37 @@ with routing
 
 const Navigation = () => {
     const [state, setState] = useState(false)
+    const [lang, setLang] = useState(true)
+    let store = useSelector(store => store)
+    const dispatch = useDispatch()
 
     useEffect(() => {
         setState(true)
     },[state])
 
+    useEffect(() => {
+        if (lang === true) {
+            dispatch(eng())
+        } else {
+            dispatch(rus())
+        }
+        console.log(store)
+        console.log(lang)
+    },[lang])
+
         return (
             <Router>
                 <div className={'navContainer'}>
                     <div className={'navBar'}>
+                        <button onClick={() => setLang(!lang)}>SWITCH LANGUAGE</button>
                         <NavLink onClick={() => setState(false)} to={'/home'} className={'navBtn'}
-                                 activeClassName={'selected'}>Home</NavLink>
+                                 activeClassName={'selected'}>{store.navButtons.home}</NavLink>
                         <NavLink onClick={() => setState(false)} to={'/projects'} className={'navBtn'}
-                                 activeClassName={'selected'}>Projects</NavLink>
+                                 activeClassName={'selected'}>{store.navButtons.projects}</NavLink>
                         <NavLink onClick={() => setState(false)} to={'/education'} className={'navBtn'}
-                                 activeClassName={'selected'}>Education</NavLink>
+                                 activeClassName={'selected'}>{store.navButtons.skills}</NavLink>
                         <NavLink onClick={() => setState(false)} to={'contacts'} className={'navBtn'}
-                                 activeClassName={'selected'}>Contacts</NavLink>
+                                 activeClassName={'selected'}>{store.navButtons.contacts}</NavLink>
                     </div>
                     <div className={'divMainContent'}>
                         <Switch>
