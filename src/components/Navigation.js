@@ -1,6 +1,6 @@
-import React, {useState} from 'react'
+import React from 'react'
 import HomeView from "./views/HomeView";
-import {BrowserRouter as Router, Link, Switch, Route, NavLink} from 'react-router-dom'
+import {BrowserRouter as Router, Switch, Route, NavLink} from 'react-router-dom'
 import ProjectView from "./views/ProjectsView";
 import EducationView from "./views/EducationView";
 import BlogView from "./views/BlogView";
@@ -12,7 +12,6 @@ with routing
 
 
 const Navigation = () => {
-    const [pressed, setPressed] = useState(false)
 
 
     return (

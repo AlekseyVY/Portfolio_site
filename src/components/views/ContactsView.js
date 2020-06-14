@@ -9,7 +9,7 @@ const ContactsView = () => {
                 <h1>GET IN TOUCH</h1>
                 <div>
                     <ul className={'get_in_touch_ul'}>
-                        <li><a href={'https://twitter.com/AlekseyVYX'} target={'_blank'}>
+                        <li><a href={'https://twitter.com/AlekseyVYX'} target={'_blank'} rel="noopener noreferrer">
                             <img className={'social'} src={'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5v' +
                             'cmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl' +
                             '0ZXJsaW1pdDoyOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjEwMCUiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6c2VyaWY9' +
@@ -22,11 +22,11 @@ const ContactsView = () => {
                             'S4xODQsNTQuNjU2Yy0xMC43NTIsLTAuMzg0IC0yMC44NjQsLTMuMzI4IC0yOS42OTYsLTguMTkybDAsMC44OTZjMCwzMS43NDQgMjIuNjU2LDU4LjM2OCA1Mi42MDgsNjQuMzg0Yy01LjUwNCwxLjUzNiAtMTEuMjY0LDIuMzA0IC0x' +
                             'Ny4yOCwyLjMwNGMtNC4yMjQsMCAtOC4zMiwtMC4zODQgLTEyLjI4OCwtMS4xNTJjOC4zMiwyNi4xMTIgMzIuNjQsNDUuMDU2IDYxLjMxMiw0NS41NjhjLTIyLjUyOCwxNy42NjQgLTUwLjgxNiwyOC4xNiAtODEuNTM2LDI4LjE2Yy' +
                             '01LjI0OCwwIC0xMC40OTYsLTAuMjU2IC0xNS42MTYsLTAuODk2YzI4LjkyOCwxOC40MzIgNjMuNDg4LDI5LjMxMiAxMDAuNDgsMjkuMzEyIiBpZD0iTG9nb19feDIwMTRfX0ZJWEVEIiBzdHlsZT0iZmlsbDojZmZmO2ZpbGwtcnVs' +
-                            'ZTpub256ZXJvOyIvPjwvZz48L3N2Zz4='} />
+                            'ZTpub256ZXJvOyIvPjwvZz48L3N2Zz4='} alt={'twitter link'}/>
                         </a>
                         </li>
                         <li>
-                            <a href={'https://vk.com/alekseyvy'} target={'_blank'}>
+                            <a href={'https://vk.com/alekseyvy'} target={'_blank'} rel="noopener noreferrer">
                             <img className={'social'} src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53
                             My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDUwIDUwIiBpZD0iTGF5ZXJfMSIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNTAgNTAiIHhtb
                             DpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik00NSwxSDVDMi44LDEsMSwyLjgsMSw1djQ
@@ -34,11 +34,11 @@ const ContactsView = () => {
                             MSwxLDEsMSwyLDFzMywwLDMsMHMyLTAuMSwyLTJjMC0wLjYtMC43LTEuNy0zLTQgIGMtMi0yLTMtMSwwLTVjMS44LTIuNSwzLjItNC43LDMtNS4zYy0wLjItMC42LTUuMy0xLjYtNi0wLjdjLTIsMy0yLjQsMy43LTMsNWMtMSwyLT
                             EuMSwzLTIsM2MtMC45LDAtMS0xLjktMS0zYzAtMy4zLDAuNS01LjYtMS02ICBjMCwwLTIsMC0zLDBjLTEuNiwwLTMsMS0zLDFzLTEuMiwxLTEsMWMwLjMsMCwyLTAuNCwyLDFjMCwxLDAsMiwwLDJzMCw0LTEsNGMtMSwwLTMtNC01LT
                             djLTAuOC0xLjItMS0xLTItMWMtMS4xLDAtMiwwLTMsMCAgYy0xLDAtMS4xLDAuNi0xLDFjMiw1LDMuNCw4LjEsNy4yLDEyLjFjMy41LDMuNiw1LjgsMy44LDcuOCwzLjlDMjUuNSwzNCwyNSwzNCwyNiwzNHoiIGZpbGw9IiNGRkZGR
-                            kYiIGlkPSJWS18xXyIvPjwvc3ZnPg=="/>
+                            kYiIGlkPSJWS18xXyIvPjwvc3ZnPg==" alt={'vkontakte link'}/>
                             </a>
                         </li>
                         <li>
-                            <a href={'https://www.linkedin.com/in/aleksey-vasiliev-b79a53150/'} target={'_blank'}>
+                            <a href={'https://www.linkedin.com/in/aleksey-vasiliev-b79a53150/'} target={'_blank'} rel="noopener noreferrer">
                             <img className={'social'} src={'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vc' +
                             'mcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZX' +
                             'JsaW1pdDoyOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjEwMCUiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6c2VyaWY9Im' +
@@ -49,11 +49,11 @@ const ContactsView = () => {
                             'NDQuNTc0Yy0wLjU1NSwtMjUuMjgzIC0xOC42MTEsLTQ0LjU3MyAtNDcuOTM1LC00NC41NzNaIiBpZD0icGF0aDEzLTAiIHN0eWxlPSJmaWxsOiNmZmY7ZmlsbC1ydWxlOm5vbnplcm87Ii8+PHBhdGggZD0iTTM1Ny4yNzgsMTcyLj' +
                             'YwMWMtNDUuNDksMCAtNjUuODY2LDI1LjAxNyAtNzcuMjc2LDQyLjU4OWwwLC0zNi41MjNsLTg1LjczOCwwYzEuMTM3LDI0LjE5NyAwLDI1Ny45NjEgMCwyNTcuOTYxbDg1LjczNywwbDAsLTE0NC4wNjRjMCwtNy43MTEgMC41NTQs' +
                             'LTE1LjQyIDIuODI3LC0yMC45MzFjNi4xODgsLTE1LjQgMjAuMzA1LC0zMS4zNTIgNDMuOTkzLC0zMS4zNTJjMzEuMDEyLDAgNDMuNDM2LDIzLjY2NCA0My40MzYsNTguMzI3bDAsMTM4LjAybDg1Ljc0MSwwbDAsLTE0Ny45M2MwLC' +
-                            '03OS4yMzcgLTQyLjMwNSwtMTE2LjA5NyAtOTguNzIsLTExNi4wOTdaIiBpZD0icGF0aDE1IiBzdHlsZT0iZmlsbDojZmZmO2ZpbGwtcnVsZTpub256ZXJvOyIvPjwvZz48L2c+PC9zdmc+'}/>
+                            '03OS4yMzcgLTQyLjMwNSwtMTE2LjA5NyAtOTguNzIsLTExNi4wOTdaIiBpZD0icGF0aDE1IiBzdHlsZT0iZmlsbDojZmZmO2ZpbGwtcnVsZTpub256ZXJvOyIvPjwvZz48L2c+PC9zdmc+'} alt={'linkedin link'}/>
                             </a>
                         </li>
                         <li>
-                            <a href={'https://www.reddit.com/user/AlekseyVY'} target={'_blank'}>
+                            <a href={'https://www.reddit.com/user/AlekseyVY'} target={'_blank'} rel="noopener noreferrer">
                             <img className={'social'} src={'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vc' +
                             'mcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJs' +
                             'aW1pdDoyOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjEwMCUiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6c2VyaWY9Imh0dHA' +
@@ -70,12 +70,12 @@ const ContactsView = () => {
                             'uOTkyYy0xLjU4OCwxLjAyOCAtMi42OTIsMi42NDQgLTMuMDg4LDQuNDg4bC0yMC4yNTYsOTUuMjI4Yy00Mi4zODQsMS4xNzYgLTgwLjQ4OCwxMy44OCAtMTA4LjA2LDMzLjc0Yy03LjE1MiwtNi44NiAtMTYuODQ0LC0xMS4xIC0yNy' +
                             '41NCwtMTEuMWMtMjEuOTkyLDAgLTM5LjgyNCwxNy44MjggLTM5LjgyNCwzOS44MmMwLDE2LjE4IDkuNjY4LDMwLjA4IDIzLjUyOCwzNi4zMTJjLTAuNjEyLDMuOTYgLTAuOTQ4LDcuOTc2IC0wLjk0OCwxMi4wNDRjMCw2MS4yNjggN' +
                             'zEuMzE2LDExMC45MzIgMTU5LjI4OCwxMTAuOTMyYzg3Ljk3MiwwIDE1OS4yOTIsLTQ5LjY2NCAxNTkuMjkyLC0xMTAuOTMyYzAsLTQuMDQgLTAuMzMyLC04LjAzMiAtMC45MzYsLTExLjk2NGMxMy45NDgsLTYuMTk2IDIzLjY4OCwt' +
-                            'MjAuMTQ0IDIzLjY4OCwtMzYuMzkyWiIgc3R5bGU9ImZpbGw6I2ZmZjtmaWxsLXJ1bGU6bm9uemVybzsiLz48L2c+PC9zdmc+'}/>
+                            'MjAuMTQ0IDIzLjY4OCwtMzYuMzkyWiIgc3R5bGU9ImZpbGw6I2ZmZjtmaWxsLXJ1bGU6bm9uemVybzsiLz48L2c+PC9zdmc+'} alt={'reddit link'}/>
                             </a>
                         </li>
-                        <li className={'social'}>
-                            <a href={'https://www.instagram.com/alekseyaraara/'} target={'_blank'}>
-                            <img src={'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmc' +
+                        <li>
+                            <a href={'https://www.instagram.com/alekseyaraara/'} target={'_blank'} rel="noopener noreferrer">
+                            <img className={'social'} src={'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmc' +
                             'vR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdH' +
                             'Jva2UtbWl0ZXJsaW1pdDoyOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjEwMCUiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2' +
                             'ZyIgeG1sbnM6c2VyaWY9Imh0dHA6Ly93d3cuc2VyaWYuY29tLyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnPjxwYXRoIGQ9Ik0yNTYsMGMtNjkuNTI2LDAgLTc4LjI0NCwwLjI5NSAt' +
@@ -109,11 +109,11 @@ const ContactsView = () => {
                             'zZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiNmZmJmMDA7c3RvcC1vcGFjaXR5OjEiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KC0xNDkuNjE4LDQ5NC4zLC00OTQ' +
                             'uMywtMTQ5LjYxOCwzMDAuODEsLTI3LjEyODMpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgaWQ9Il9MaW5lYXIzIiB4MT0iMCIgeDI9IjEiIHkxPSIwIiB5Mj0iMCI+PHN0b3Agb2Zmc2V0PSIwIiBzdHlsZT0ic3R' +
                             'vcC1jb2xvcjojNTE1YmQ0O3N0b3Atb3BhY2l0eToxIi8+PHN0b3Agb2Zmc2V0PSIwLjI2IiBzdHlsZT0ic3RvcC1jb2xvcjojOTUxMGI4O3N0b3Atb3BhY2l0eToxIi8+PHN0b3Agb2Zmc2V0PSIwLjY2IiBzdHlsZT0ic3RvcC1j' +
-                            'b2xvcjojZTUxODA0O3N0b3Atb3BhY2l0eToxIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojZmZiZjAwO3N0b3Atb3BhY2l0eToxIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PC9zdmc+'}/>
+                            'b2xvcjojZTUxODA0O3N0b3Atb3BhY2l0eToxIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojZmZiZjAwO3N0b3Atb3BhY2l0eToxIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PC9zdmc+'} alt={'instagramm link'}/>
                             </a>
                         </li>
                         <li>
-                            <a href={'https://wa.me/89377222062'} target={'_blank'}>
+                            <a href={'https://wa.me/89377222062'} target={'_blank'} rel="noopener noreferrer">
                             <img className={'social'} src={'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcm' +
                             'cvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsa' +
                             'W1pdDoyOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjEwMCUiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6c2VyaWY9Imh0dHA6' +
@@ -141,11 +141,11 @@ const ContactsView = () => {
                             'NS44OTIsOTQuNTQ1bDk2Ljc1LC0yNS4zN2MyNi42NTcsMTQuNTM1IDU2LjY3LDIyLjE5NCA4Ny4yMTYsMjIuMjA3bDAuMDc1LDBjMTAwLjU4NiwwIDE4Mi40NjUsLTgxLjg1MiAxODIuNTA2LC0xODIuNDQ4YzAuMDE5LC00OC43NTE' +
                             'gLTE4Ljk0NiwtOTQuNTkgLTUzLjQwNSwtMTI5LjA3NiIgc3R5bGU9ImZpbGw6I2ZmZjsiLz48L2c+PGRlZnM+PGxpbmVhckdyYWRpZW50IGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMCwtNTEyLC01MTIsMCwyNTYuMDAxLDUxM' +
                             'ikiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiBpZD0iX0xpbmVhcjEiIHgxPSIwIiB4Mj0iMSIgeTE9IjAiIHkyPSIwIj48c3RvcCBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiMyNWNmNDM7c3RvcC1vcGFjaX' +
-                            'R5OjEiLz48c3RvcCBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiM2MWZkN2Q7c3RvcC1vcGFjaXR5OjEiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48L3N2Zz4='}/>
+                            'R5OjEiLz48c3RvcCBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiM2MWZkN2Q7c3RvcC1vcGFjaXR5OjEiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48L3N2Zz4='} alt={'whatsapp call link'}/>
                             </a>
                         </li>
                         <li>
-                            <a href={'https://www.facebook.com/aleksey.vasiliev.5437/'} target={'_blank'}>
+                            <a href={'https://www.facebook.com/aleksey.vasiliev.5437/'} target={'_blank'} rel="noopener noreferrer">
                             <img className={'social'} src={'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcm' +
                             'cvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsa' +
                             'W1pdDoyOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjEwMCUiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6c2VyaWY9Imh0dHA6' +
@@ -153,7 +153,7 @@ const ContactsView = () => {
                             'uNTI0IC0yOC4wMyw2Mi41NTQgLTYyLjU1NCw2Mi41NTRsLTEwNi40NjgsMGwwLC0xOTIuOTE1bDY2LjYsMGwxMi42NzIsLTgyLjYyMWwtNzkuMjcyLDBsMCwtNTMuNjE3YzAsLTIyLjYwMyAxMS4wNzMsLTQ0LjYzNiA0Ni41OCwtNDQ' +
                             'uNjM2bDM2LjA0MiwwbDAsLTcwLjM0YzAsMCAtMzIuNzEsLTUuNTgyIC02My45ODIsLTUuNTgyYy02NS4yODgsMCAtMTA3Ljk2LDM5LjU2OSAtMTA3Ljk2LDExMS4yMDRsMCw2Mi45NzFsLTcyLjU3MywwbDAsODIuNjIxbDcyLjU3Myw' +
                             'wbDAsMTkyLjkxNWwtMTkxLjEwNCwwYy0zNC41MjQsMCAtNjIuNTU0LC0yOC4wMyAtNjIuNTU0LC02Mi41NTRsMCwtMzg2Ljg5MmMwLC0zNC41MjQgMjguMDI5LC02Mi41NTQgNjIuNTU0LC02Mi41NTRsMzg2Ljg5MiwwWiIgc3R5bGU' +
-                            '9ImZpbGw6IzE3NzdmMjsiLz48L3N2Zz4='}/>
+                            '9ImZpbGw6IzE3NzdmMjsiLz48L3N2Zz4='} alt={'facebook link'}/>
                             </a>
                         </li>
                     </ul>

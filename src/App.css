@@ -1,7 +1,10 @@
 .container {
+    display: flex;
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
+    font-size: 1rem;
+    font-family: consolas, serif;
 }
 
 @media (min-width: 1366px) {
