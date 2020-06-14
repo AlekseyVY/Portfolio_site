@@ -72,3 +72,30 @@
     -webkit-box-reflect: below 0.1vh linear-gradient(transparent, #0005);
 }
 
+/*
+    Switch beetween components animation
+*/
+.switchAnimation-enter {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.switchAnimation-enter-active {
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+.switchAnimation-enter-done {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.switchAnimation-exit {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.switchAnimation-exit-active {
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+.switchAnimation-exit-done {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
