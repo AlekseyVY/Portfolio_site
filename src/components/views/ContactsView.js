@@ -1,12 +1,15 @@
 import React from 'react'
+import {useSelector} from "react-redux";
 
 
 const ContactsView = () => {
+    const store = useSelector(store => store)
+
 
     return (
         <div className={'contactsViewDiv'}>
             <article className={'get_in_Touch'}>
-                <h1>GET IN TOUCH</h1>
+                <h1>{store.contacts.social.name}</h1>
                 <div>
                     <ul className={'get_in_touch_ul'}>
                         <li><a href={'https://twitter.com/AlekseyVYX'} target={'_blank'} rel="noopener noreferrer">
@@ -160,37 +163,37 @@ const ContactsView = () => {
                 </div>
             </article>
             <article className={'contact_me'}>
-                <h1>SEND ME A MESSAGE</h1>
+                <h1>{store.contacts.contact.name}</h1>
                 <div>
                     <form>
                         <div>
                             <ul className={'contact_me_ul'}>
                                 <li>
-                                    <label className={'contacts_label'}>Name<span className={'contacts_label_span'}>(required)</span></label>
+                                    <label className={'contacts_label'}>{store.contacts.contact.nameForm}<span className={'contacts_label_span'}>({store.contacts.contact.required})</span></label>
                                     <div>
                                         <input className={'inputForm'} type={'text'} required={true}/>
                                     </div>
                                 </li>
                                 <li>
-                                    <label className={'contacts_label'} >email<span className={'contacts_label_span'}>(required)</span></label>
+                                    <label className={'contacts_label'} >{store.contacts.contact.email}<span className={'contacts_label_span'}>({store.contacts.contact.required})</span></label>
                                     <div>
                                         <input className={'inputForm'} type={'email'} required={true}/>
                                     </div>
                                 </li>
                                 <li>
-                                    <label className={'contacts_label'} >phone</label>
+                                    <label className={'contacts_label'} >{store.contacts.contact.phone}</label>
                                     <div>
                                         <input className={'inputForm'} type={'phone'}/>
                                     </div>
                                 </li>
                                 <li>
-                                    <label className={'contacts_label'}>Message<span className={'contacts_label_span'}>(required)</span></label>
+                                    <label className={'contacts_label'}>{store.contacts.contact.message}<span className={'contacts_label_span'}>({store.contacts.contact.required})</span></label>
                                     <div>
                                         <textarea className={'textareaForm'} type={'text'} rows={'10'} cols={'50'} required={true}/>
                                     </div>
                                 </li>
                             </ul>
-                            <button type={'submit'} className={'submit_contact'}>send</button>
+                            <button type={'submit'} className={'submit_contact'}>{store.contacts.contact.button}</button>
                         </div>
                     </form>
                 </div>

@@ -5,7 +5,8 @@ const EducationView = () => {
 
     return (
         <div className={'educationViewDiv'}>
-            To be produced
+            <div><h1>404</h1></div>
+            <div><h4>Currently building Awesome Skills page. Stay tuned!</h4></div>
         </div>
     )
 }
