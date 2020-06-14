@@ -99,3 +99,81 @@
     opacity: 0;
     transition: opacity 0.5s;
 }
+
+/*
+Translation button CSS Styles
+ */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    height: 5.5%;
+    border: solid #03e9f4;
+}
+
+.switch input {display:none;}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0a093b;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 5%;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 80%;
+    width: 25%;
+    left: 2%;
+    bottom: 10%;
+    background-color: #03e9f4;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 5%;
+    box-shadow: 0 0 1vh #03e9f4,
+    0 0 1.5vh #03e9f4,
+    0 0 2vh #03e9f4,
+    0 0 5vh #03e9f4;
+}
+
+input:checked + .slider {
+    background-color: #0a093b;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(280%);
+    -ms-transform: translateX(280%);
+    transform: translateX(280%);
+}
+
+/*------ ADDED CSS ---------*/
+.slider:after
+{
+    content:'English';
+    color: #03e9f4;
+    display: block;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-size: 1rem;
+    font-family: consolas, serif;
+}
+
+input:checked + .slider:after
+{
+    content:'Русский';
+}
+
+/*--------- END --------*/

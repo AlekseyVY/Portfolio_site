@@ -32,15 +32,14 @@ const Navigation = () => {
         } else {
             dispatch(rus())
         }
-        console.log(store)
-        console.log(lang)
     },[lang])
 
         return (
             <Router>
                 <div className={'navContainer'}>
                     <div className={'navBar'}>
-                        <button onClick={() => setLang(!lang)}>SWITCH LANGUAGE</button>
+                        <label className="switch"><input onClick={() => setLang(!lang)} type="checkbox" id="togBtn"/>
+                            <div className="slider round"></div></label>
                         <NavLink onClick={() => setState(false)} to={'/home'} className={'navBtn'}
                                  activeClassName={'selected'}>{store.navButtons.home}</NavLink>
                         <NavLink onClick={() => setState(false)} to={'/projects'} className={'navBtn'}
