@@ -31,6 +31,7 @@ const Navigation = () => {
                         <Route path={'/blog'}><BlogView /></Route>
                         <Route path={'/contacts'}><ContactsView /></Route>
                         <Route path={'/home'}><HomeView /></Route>
+                        <Route path={'/'}><HomeView /></Route>
                     </Switch>
                 </div>
             </div>
