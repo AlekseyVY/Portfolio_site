@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react'
 import {useSelector} from "react-redux";
+
 /*
 Component for rendering animated typewrite text
 props: none.
@@ -7,7 +8,7 @@ props: none.
 
 
 const AnimatedText = () => {
-    const store = useSelector(store => store)
+    const state = useSelector(state => state)
 
     let TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
@@ -69,10 +70,11 @@ const AnimatedText = () => {
         start()
     }, [])
 
+
         return (
             <div className={'animatedText'}>
                 <h2 href="" className="typewrite" data-period="2000"
-                    data-type={store.home.data}>
+                    data-type={state.home.data}>
                     <span className="wrap"></span>
                 </h2>
             </div>

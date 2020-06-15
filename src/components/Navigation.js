@@ -10,6 +10,7 @@ import ContactsView from "./views/ContactsView";
 import {CSSTransition} from "react-transition-group";
 import {useDispatch, useSelector} from "react-redux";
 import {eng, rus} from "../reducers/langSelectReducer";
+import Redirect from "react-router-dom/es/Redirect";
 /*
 Main navigation component left-side
 with routing
@@ -72,6 +73,7 @@ const Navigation = () => {
                                 </CSSTransition>
                             </Route>
                             <Route path={'/'}><HomeView/></Route>
+                            <Redirect to="/home" />
                         </Switch>
                     </div>
                 </div>
