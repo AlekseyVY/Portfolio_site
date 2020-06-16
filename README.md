@@ -5,15 +5,12 @@
 
 #ToDo:   
 *    Create mobile layout.
-*    add background particle animation lightweight.
+*    add background particle animation lightweight.?
 *    create Projects view.
 *    redesighn and implement education view
 *    create contqacts view
 *    add more support width displays
-*    implement redux in project
-*    create transition on switch animation
-*    create multilanguage support 
-*    create multilanguage switch (something cool) -- preload --with redux as store
-*   fix manifest and robots
+*    fix manifest and robots
+*    male navbar collapsable on click and back.
     
     
