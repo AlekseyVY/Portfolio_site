@@ -15,5 +15,6 @@
 *    create blog view
 *    create post links notification about new blog to all medias.
 *    create func that blog on post would be posted on all major blog platform with auto notify to all medias
+*    make switch for dark and light themes
     
     
