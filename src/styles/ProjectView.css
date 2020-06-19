@@ -1,10 +1,46 @@
 .projectViewDiv {
     height: 100vh;
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
+    flex-direction: row;
     -webkit-box-shadow: 0.4vh 0.6vh 0.8vh 1vh #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
     -moz-box-shadow:    0.4vh 0.6vh 0.8vh 1vh #ccc;  /* Firefox 3.5 - 3.6 */
     box-shadow:         0.4vh 0.6vh 0.8vh 1vh #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
+
+
+.card {
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 30%;
+    height: 50%;
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+}
+.card:hover {
+    transform: scale(1.03) rotate(0.2deg);
+    transition: 1s;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.gitAndLinkBlock {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.projectGitLink {
+    width: 50%;
+}
+.imgProject {
+    width: 50%;
+}
+.livePreviewLinkProgect {
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */

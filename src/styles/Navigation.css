@@ -108,7 +108,6 @@ Translation button CSS Styles
     display: inline-block;
     width: 80%;
     height: 5.5%;
-    border: solid #03e9f4;
 }
 
 .switch input {display:none;}
