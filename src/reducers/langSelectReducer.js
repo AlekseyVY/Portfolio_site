@@ -24,6 +24,21 @@ const english = {
             required: 'required',
             button: 'send'
         }
+    },
+    projects: {
+        portfolio: {
+            name: "Portfolio website",
+            tech: {
+                name: "Tech used",
+                React: "React",
+                JS: "JavaScript",
+                Redux: "Redux",
+                Html: "Html",
+                css: "Css"
+            },
+            description: "Portfolio website, with language switch. Implemented in React with lang selection logic is in Redux.",
+            link: "live preview"
+        }
     }
 }
 
@@ -50,6 +65,21 @@ const russian = {
             message: 'Сообщение',
             required: 'требуется',
             button: 'отправить'
+        }
+    },
+    projects: {
+        portfolio: {
+            name: "Сайт портфолио",
+            tech: {
+                name: "Технологии",
+                React: "React",
+                JS: "JavaScript",
+                Redux: "Redux",
+                Html: "Html",
+                css: "Css"
+            },
+            description: "Сайт портфолио, с преключением языков написан на React, логика переключения языков выведенна в Redux.",
+            link: "Посмотреть"
         }
     }
 }

@@ -1,15 +1,17 @@
 import React from 'react'
+import {useSelector} from "react-redux";
 
 
 const ProjectView = () => {
-
+    let store = useSelector(store => store)
+    console.log(store)
     return (
         <div className={'projectViewDiv'}>
             <div className="card">
                     <div className="container">
-                        <h2>Portfolio website</h2>
-                        <h4>Tech used: <span>React</span><span>Redux</span><span>Javascript</span><span>Html</span><span>Css</span></h4>
-                        <p>Description: Personal portfolio website, with language switch implemented with Redux and React Hooks</p>
+                        <h2>{store.projects.portfolio.name}</h2>
+                        <h4>{store.projects.portfolio.tech.name}<span>React</span><span>Redux</span><span>Javascript</span><span>Html</span><span>Css</span></h4>
+                        <p>{store.projects.portfolio.description}</p>
                         <div className={'gitAndLinkBlock'}>
                         <a className={'projectGitLink'} href={'https://github.com/AlekseyVY/Portfolio_site'} target={'_blank'} rel="noopener noreferrer">
                         <img className={'imgProject'} src={'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR' +
@@ -26,7 +28,7 @@ const ProjectView = () => {
                         'jIzLDAgICBDMTE0LjczLDAsMCwxMTQuNzMsMCwyNTYuMjNDMCwzOTcuMjYzLDExNC43Myw1MTIsMjU2LjIzLDUxMkMzOTcuMjYzLDUxMiw1MTIsMzk3LjI2Myw1MTIsMjU2LjIzTDUxMiwyNTYuMjN6IiBmaWxsPSIjMEQyN' +
                         'jM2IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L2c+PC9zdmc+'} alt={'github link'}/>
                         </a>
-                        <a className={'livePreviewLinkProgect'} href={'http://www.google.com'} target={'_blank'} rel="noopener noreferrer">Live Preview</a>
+                        <a className={'livePreviewLinkProgect'} href={'http://www.google.com'} target={'_blank'} rel="noopener noreferrer">{store.projects.portfolio.link}</a>
                         </div>
                     </div>
             </div>
