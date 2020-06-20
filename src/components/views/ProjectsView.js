@@ -4,13 +4,15 @@ import {useSelector} from "react-redux";
 
 const ProjectView = () => {
     let store = useSelector(store => store)
-    console.log(store)
+
     return (
         <div className={'projectViewDiv'}>
             <div className="card">
-                    <div className="container">
                         <h2>{store.projects.portfolio.name}</h2>
-                        <h4>{store.projects.portfolio.tech.name}<span>React</span><span>Redux</span><span>Javascript</span><span>Html</span><span>Css</span></h4>
+                        <h4>{store.projects.portfolio.tech.name}</h4>
+                        <div className={'projSpanBlock'}>
+                        <span className={'reactSpan'}>React</span><span className={'reduxSpan'}>Redux</span><span className={'jsSpan'}>Javascript</span><span className={'htmlSpan'}>Html</span><span className={'cssSpan'}>Css</span>
+                        </div>
                         <p>{store.projects.portfolio.description}</p>
                         <div className={'gitAndLinkBlock'}>
                         <a className={'projectGitLink'} href={'https://github.com/AlekseyVY/Portfolio_site'} target={'_blank'} rel="noopener noreferrer">
@@ -30,7 +32,6 @@ const ProjectView = () => {
                         </a>
                         <a className={'livePreviewLinkProgect'} href={'http://www.google.com'} target={'_blank'} rel="noopener noreferrer">{store.projects.portfolio.link}</a>
                         </div>
-                    </div>
             </div>
         </div>
     )

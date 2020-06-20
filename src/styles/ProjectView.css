@@ -16,10 +16,12 @@
     width: 30%;
     height: 50%;
     transition: 0.3s;
-    border-radius: 5px; /* 5px rounded corners */
+    border-radius: 5%; /* 5px rounded corners */
 }
 .card:hover {
-    transform: scale(1.03) rotate(0.2deg);
+    -webkit-box-shadow: 0.4vh 0.6vh 0.8vh 1vh #0a093b;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    0.4vh 0.6vh 0.8vh 1vh #0a093b;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         0.4vh 0.6vh 0.8vh 1vh #0a093b;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
     transition: 1s;
 }
 
@@ -41,6 +43,86 @@
     width: 50%;
 }
 .livePreviewLinkProgect {
+    height: 80%;
+    position: relative;
+    display: inline-block;
+    padding: 5% 5%;
+    margin: 0;
+    border: none;
+    background-color: #0a093b;
+    color: #03e9f4;
+    font-size: 0.7rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 0.15em;
+    border-radius: 1rem;
+    outline: none;
 }
-
-/* Add rounded corners to the top left and the top right corner of the image */
+.livePreviewLinkProgect:hover {
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 1vh #03e9f4,
+    0 0 1.5vh #03e9f4,
+    0 0 2vh #03e9f4,
+    0 0 5vh #03e9f4;
+    transition: 1s;
+    cursor: pointer;
+}
+.projectGitLink:hover {
+    transform: scale(1.03);
+    transition: 1s;
+}
+.projSpanBlock {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8rem;
+    text-decoration: none;
+    text-transform: lowercase;
+    letter-spacing: 0.15em;
+}
+.reactSpan {
+    border-style: solid;
+    border-radius: 15%;
+    font-size: 0.8rem;
+    text-decoration: none;
+    text-transform: lowercase;
+    letter-spacing: 0.15em;
+}
+.reduxSpan {
+    border-style: solid;
+    border-radius: 15%;
+    margin: 1%;
+    font-size: 0.8rem;
+    text-decoration: none;
+    text-transform: lowercase;
+    letter-spacing: 0.15em;
+}
+.jsSpan {
+    border-style: solid;
+    border-radius: 15%;
+    margin: 1%;
+    font-size: 0.8rem;
+    text-decoration: none;
+    text-transform: lowercase;
+    letter-spacing: 0.15em;
+}
+.htmlSpan {
+    border-style: solid;
+    border-radius: 15%;
+    margin: 1%;
+    font-size: 0.8rem;
+    text-decoration: none;
+    text-transform: lowercase;
+    letter-spacing: 0.15em;
+}
+.cssSpan {
+    border-style: solid;
+    border-radius: 15%;
+    margin: 1%;
+    font-size: 0.8rem;
+    text-decoration: none;
+    text-transform: lowercase;
+    letter-spacing: 0.15em;
+}
