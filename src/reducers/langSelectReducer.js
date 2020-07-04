@@ -37,7 +37,7 @@ const english = {
                 css: "Css"
             },
             description: "Portfolio website, with language switch. Implemented in React with lang selection logic is in Redux.",
-            link: "live preview"
+            link: "code"
         }
     }
 }
@@ -79,7 +79,7 @@ const russian = {
                 css: "Css"
             },
             description: "Сайт портфолио, с преключением языков написан на React, логика переключения языков выведенна в Redux.",
-            link: "Посмотреть"
+            link: "код"
         }
     }
 }

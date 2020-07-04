@@ -19,9 +19,9 @@
     border-radius: 5%; /* 5px rounded corners */
 }
 .card:hover {
-    -webkit-box-shadow: 0.4vh 0.6vh 0.8vh 1vh #0a093b;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -moz-box-shadow:    0.4vh 0.6vh 0.8vh 1vh #0a093b;  /* Firefox 3.5 - 3.6 */
-    box-shadow:         0.4vh 0.6vh 0.8vh 1vh #0a093b;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    -webkit-box-shadow: 0.2vh 0.3vh 0.4vh 0.5vh #0a093b;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    0.2vh 0.3vh 0.4vh 0.5vh #0a093b;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         0.2vh 0.3vh 0.4vh 0.5vh #0a093b;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
     transition: 1s;
 }
 
@@ -30,28 +30,28 @@
     flex-direction: column;
 }
 
-.gitAndLinkBlock {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: center;
+.projectDescription {
+    margin: 5%;
 }
-.projectGitLink {
-    width: 50%;
+
+.projectHead {
+    margin: 5%;
 }
-.imgProject {
-    width: 50%;
+
+projectHead, h2 {
+    text-align: center;
 }
+
 .livePreviewLinkProgect {
-    height: 80%;
+    margin-left: 5%;
+    margin-top: 5%;
     position: relative;
     display: inline-block;
-    padding: 5% 5%;
-    margin: 0;
+    padding: 5% 10%;
     border: none;
     background-color: #0a093b;
     color: #03e9f4;
-    font-size: 0.7rem;
+    font-size: 1rem;
     text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
@@ -60,6 +60,7 @@
     border-radius: 1rem;
     outline: none;
 }
+
 .livePreviewLinkProgect:hover {
     background: #03e9f4;
     color: #050801;
@@ -69,60 +70,4 @@
     0 0 5vh #03e9f4;
     transition: 1s;
     cursor: pointer;
-}
-.projectGitLink:hover {
-    transform: scale(1.03);
-    transition: 1s;
-}
-.projSpanBlock {
-    display: flex;
-    flex-direction: row;
-    font-size: 0.8rem;
-    text-decoration: none;
-    text-transform: lowercase;
-    letter-spacing: 0.15em;
-}
-.reactSpan {
-    border-style: solid;
-    border-radius: 15%;
-    font-size: 0.8rem;
-    text-decoration: none;
-    text-transform: lowercase;
-    letter-spacing: 0.15em;
-}
-.reduxSpan {
-    border-style: solid;
-    border-radius: 15%;
-    margin: 1%;
-    font-size: 0.8rem;
-    text-decoration: none;
-    text-transform: lowercase;
-    letter-spacing: 0.15em;
-}
-.jsSpan {
-    border-style: solid;
-    border-radius: 15%;
-    margin: 1%;
-    font-size: 0.8rem;
-    text-decoration: none;
-    text-transform: lowercase;
-    letter-spacing: 0.15em;
-}
-.htmlSpan {
-    border-style: solid;
-    border-radius: 15%;
-    margin: 1%;
-    font-size: 0.8rem;
-    text-decoration: none;
-    text-transform: lowercase;
-    letter-spacing: 0.15em;
-}
-.cssSpan {
-    border-style: solid;
-    border-radius: 15%;
-    margin: 1%;
-    font-size: 0.8rem;
-    text-decoration: none;
-    text-transform: lowercase;
-    letter-spacing: 0.15em;
 }
