@@ -58,6 +58,7 @@ a:focus {
 .navbar {
     padding: 15px;
     background: #222222 !important;
+    margin-top: 5vh;
 }
 
 .navbar-expand-md .navbar-nav .nav-item {
