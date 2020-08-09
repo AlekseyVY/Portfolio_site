@@ -4,7 +4,7 @@
 body {
     color: #666666;
     background: whitesmoke;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Antic Slab', serif;
 }
 
 a {
@@ -819,7 +819,7 @@ a:focus {
 .portfolio .portfolio-item figure .portfolio-title span {
     display: block;
     margin-top: 10px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Antic Slab', serif;
     font-size: 13px;
     font-weight: 300;
 }
