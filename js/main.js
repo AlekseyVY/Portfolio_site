@@ -52,5 +52,3 @@
         return false;
     });
 })(jQuery);
-
-//pfff
